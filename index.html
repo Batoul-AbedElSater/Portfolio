@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batoul — Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<video autoplay muted loop playsinline id="bgvid">
+    <source src="videos/background_video.mp4" type="video/mp4">
+</video>
+
+<!--   BOOKMARKS on the right side  -->
+    <div class="bookmarks">
+    <div class="bm" onclick="goTo(0)"><i class='bx bxs-user'></i><span>Profile</span></div>
+    <div class="bm" onclick="goTo(1)"><i class='bx bxs-briefcase'></i><span>Experience</span></div>
+    <div class="bm" onclick="goTo(2)"><i class='bx bxs-graduation'></i><span>Education</span></div>
+    <div class="bm" onclick="goTo(3)"><i class='bx bxs-pen'></i><span>Writing</span></div>
+    <div class="bm" onclick="goTo(4)"><i class='bx bxs-wrench'></i><span>Skills</span></div>
+    <div class="bm" onclick="goTo(5)"><i class='bx bxs-camera-home'></i><span>Projects</span></div>
+    <div class="bm" onclick="goTo(6)"><i class='bx bxs-envelope'></i><span>Contact</span></div>
+</div>
+
+
+<div class="book-scene">
+
+    <div class="spine"></div>
+
+    <!-- LEFT PAGE -->
+    <div class="page left-page" id="leftPage">
+        <div class="page-content" id="leftContent"></div>
+    </div>
+
+    <!-- RIGHT PAGE -->
+    <div class="page right-page" id="rightPage">
+        <div class="page-content" id="rightContent"></div>
+    </div>
+
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
