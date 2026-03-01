@@ -239,7 +239,7 @@ function page6HTML() {
                 <i class='bx bxs-phone' style="font-size:1.6rem; color:#7b5ea7;"></i>
                 <div>
                     <div style="font-size:0.65rem; font-weight:600; color:#7b5ea7; letter-spacing:0.1rem; margin-bottom:0.1rem;">PHONE</div>
-                    <div style="font-size:0.85rem; font-weight:600;">+961 209 422</div>
+                    <div style="font-size:0.85rem; font-weight:600;">+961 81 209 422</div>
                 </div>
             </a>
 
